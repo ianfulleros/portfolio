@@ -110,7 +110,26 @@
 
 
 
-
+.first_project{
+	background:url('../img/landing.jpg');
+	width:100%;
+	background-position:center;
+	height:100vh;
+}
+.second_project{
+	background:url('../img/landing2.jpg');
+	width:100%;
+	background-position:70% 20% ;
+	height:100vh;
+	object-fit: cover;
+}
+.third_project{
+	background:url('../img/landing3.jpg');
+	width:100%;
+	background-position:70% 20% ;
+	height:100vh;
+	object-fit: cover;
+}
 
 
 /*Skills*/
@@ -251,6 +270,31 @@
 	#second_project,
 	#third_project{
 		height:50vh;
+		object-fit: cover;
+	}
+
+	.first_project,
+	.second_project,
+	.third_project{
+		height:50vh;
+	}
+	.first_project{
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:100%;
+		object-fit: cover;
+
+	}
+	.second_project{
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:100%;
+		object-fit: cover;
+	}
+	.third_project{
+			background-position:center;
+		background-repeat:no-repeat;
+		background-size:100%;
 		object-fit: cover;
 	}
 	.fp_text h3{
@@ -422,7 +466,7 @@
 		height:200px;
 	}
 	#intro h1{
-		margin-top:50px;
+		/*margin-top:50px;*/
 		font-size:200px;
 	}
 	.fswd{
@@ -489,12 +533,23 @@
 	.logo{
 		object-fit: cover;
 	}
+	.abt h4{
+		font-size:30px;
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	.about_message{
+		font-size:18px;
+	}
 }
 
 
 /*Ipad Portrait*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 	
+	.first_project{
+		background-position:30% 30%;
+	}
 
 	.intro_h1{
 		margin-top:150px !important;
