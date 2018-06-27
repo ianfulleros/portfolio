@@ -445,10 +445,10 @@
 @media only screen and (min-width: 1200px) {
 	.logos_contain img{
 		/*margin-top:50px;*/
-		padding:10px;
+		/*padding:10px;*/
 	}
 	.skills_h1{
-	font-size: 120px !important; 
+	font-size: 80px !important; 
      font-weight: 700; 
     letter-spacing: 2px;
 	}
