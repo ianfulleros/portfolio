@@ -468,11 +468,11 @@
 	}
 	#intro h1{
 		/*margin-top:50px;*/
-		font-size:calc(150px + 7vh);
+		font-size:calc(100px + 7vh);
 	}
 	.fswd{
 		margin:0;
-		margin-top:530px;
+		margin-top:350px;
 	}
 	.fswd h2{
 		font-size:40px;
