@@ -59,7 +59,10 @@
 	text-decoration: underline;
 }
 
-
+#intro{
+	display:table;
+	height:inherit;
+}
 
 /*Main Wrapper*/
 #main-wrapper{
@@ -460,7 +463,9 @@
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+
+
 	.capstone-title{
 	font-size: 3em;
 	color: orange;
@@ -651,9 +656,24 @@
 
 
 
-@media only screen and (min-width:1250px) and (max-width:1280px){
+@media only screen and (min-width:1025px) and (max-width:1199px){
 
 
+	#intro h1{
+	/*margin-top:100px;*/
+	color:white;
+	font-size: 130px; 
+	/*font-size:calc(15px + 2vh);*/
+     /*line-height: 280px; */
+     font-weight: 700; 
+    letter-spacing: 2px;
+    /*position: relative;*/
+    /*text-align:left;*/
+    
+}
+.fswd{
+	margin-top:340px;
+}
 
 }
 
