@@ -676,7 +676,7 @@
 	#intro h1{
 	color:white;
 	font-size: 130px; 
-	line-height:160px !important;
+	
     
 }
 .fswd{
@@ -722,7 +722,7 @@
 	font-size:25px;
 }
 .about_message{
-	font-size:15px !important;
+	font-size:1px !important;
 }
 
 
@@ -788,10 +788,11 @@
 }
 @media only screen and (min-width:1440px){
 	#intro h1{
-		font-size:250px;
+		font-size:250px !important;
+		line-height:290px !important;
 	}
 	.fswd{
-		margin-top:690px;
+		margin-top:650px;
 	}
 	.fp_content{
 		margin-top:150px;
