@@ -674,26 +674,25 @@
 	
 	color:white;
 	font-size: 150px; 
-	line-height:170px;
+	line-height:200px;
     
 }
 .fswd{
-	margin-top:350px;
+	margin-top:480px;
 }
 .fp_text{
-	margin-top:50px;
+	margin-top:100px;
 }
 .fp_text h2{
 	font-weight: bold;
 }
 .website_description{
-	margin-top:15px;
-	margin-bottom:15px;
-	font-size:18px;
+	margin-top:30px;
+	margin-bottom:30px;
+	font-size:22px;
 
 }
 .proj_tech{
-	margin:0;
 	font-size:22px;
 }
 .about h1{
@@ -703,15 +702,15 @@
 #link_web,
 #link_web2,
 #link_web3{
-	margin-top:20px;
+	margin-top:50px;
 	font-size:30px;
 }
 .about ul>li{
 	font-size:25px;
 }
 .about_text img{
-	margin-top:15px;
-	height:150px;
+	margin-top:30px;
+	height:200px;
 	object-fit: cover;
 }
 .abt h4{
@@ -720,7 +719,7 @@
 	font-size:25px;
 }
 .about_message{
-	font-size:18px;
+	font-size:22px;
 }
 
 }
