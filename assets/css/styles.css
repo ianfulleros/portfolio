@@ -750,7 +750,7 @@
 		margin-top:480px;
 	}
 }
-@media only screen and (min-width:1367px) and (max-width:1440px){
+@media only screen and (min-width:1367px) and (max-width:1399px){
 	#intro h1{
 		/*margin-top:100px;*/
 		font-size:200px;
@@ -792,7 +792,7 @@
 		line-height:290px !important;
 	}
 	.fswd{
-		margin-top:650px;
+		margin-top:600px;
 	}
 	.fp_content{
 		margin-top:150px;
@@ -812,7 +812,7 @@
 	}
 	.about h1{
 		font-size:120px;
-		line-height:200px;
+		line-height:150px;
 	}
 	.about ul>li{
 		font-size:35px;
