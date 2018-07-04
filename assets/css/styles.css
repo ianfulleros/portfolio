@@ -38,9 +38,8 @@
 	font-size:15px;
 	font-weight: bold;
 }
-.about_message{
-	font-size:16px !important;
-}
+
+
 .image_contain{
 	margin:0 !important;
 	margin-top:20px !important;
@@ -103,6 +102,9 @@
 .fswd ul>li>a{
 	color:white;
 }
+.about_message{
+		font-size:18px;
+	}
 
 
 /*Works*/
@@ -619,13 +621,13 @@
 		margin-top:100px;
 	}
 	.skills_h1{
-		font-size:120px !important;
+		font-size:90px !important;
 	}
 	.logos_contain{
 		/*margin-top:150px;*/
 	}
 	.logo{
-		padding:15px;
+		padding:12px;
 		object-fit: cover;
 	}
 	.contact_h1{
@@ -652,87 +654,181 @@
 	.about_message{
 		font-size:18px;
 	}
+	.website_description{
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	#link_web a,
+	#link_web2 a,
+	#link_web3 a{
+		font-size:35px;
+	}
 }
 
 
 
-@media only screen and (min-width:1025px) and (max-width:1199px){
+@media only screen and (min-width:1025px) and (max-width:1280px){
 
 
 	#intro h1{
-	/*margin-top:100px;*/
+	
 	color:white;
-	font-size: 130px; 
-	/*font-size:calc(15px + 2vh);*/
-     /*line-height: 280px; */
-     font-weight: 700; 
-    letter-spacing: 2px;
-    /*position: relative;*/
-    /*text-align:left;*/
+	font-size: 150px; 
+	line-height:200px;
     
 }
 .fswd{
-	margin-top:340px;
+	margin-top:480px;
 }
 .fp_text{
 	margin-top:100px;
 }
+.fp_text h2{
+	font-weight: bold;
+}
 .website_description{
-	margin-top:20px;
+	margin-top:30px;
+	margin-bottom:30px;
+	font-size:22px;
 
+}
+.proj_tech{
+	font-size:22px;
 }
 .about h1{
-	font-size:70px;
-	line-height:100px;
+	font-size:90px;
+	line-height:130px;
+}
+#link_web,
+#link_web2,
+#link_web3{
+	margin-top:50px;
+	font-size:30px;
+}
+.about ul>li{
+	font-size:25px;
+}
+.about_text img{
+	margin-top:30px;
+	height:200px;
+	object-fit: cover;
+}
+.abt h4{
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:25px;
+}
+.about_message{
+	font-size:18px;
+}
+
 }
 
 
-}
+@media only screen and (min-width:1279px) and (max-width:1367px) {
 
-
-@media only screen and (min-width: 1281px) {
-	.fp_content{
-		margin-top:200px;
+	#intro h1{
+		font-size:200px ;
+		line-height:220px !important;
 	}
+
+	.fp_content{
+		margin-top:100px;
+	}
+	.website_description{
+		margin-top:50px;
+	}
+	.about_message{
+		font-size:22px;
+	}
+
+	.fswd{
+		margin-top:480px;
+	}
+}
+@media only screen and (min-width:1367px) and (max-width:1440px){
 	#intro h1{
 		/*margin-top:100px;*/
-	color:white;
-	font-size: 200px ; 
-	/*font-size:calc(15px + 2vh);*/
-     line-height: 300px; 
-     font-weight: 700; 
-    letter-spacing: 2px;
-    /*position: relative;*/
-    /*text-align:left;*/
+		font-size:200px;
+		line-height:220px;
 	}
 	.fswd{
-		margin-top:680px;
+		margin-top:480px;
+	}
+	.fswd h2{
+		/*font-size:48px;*/
+	}
+	.fp_content{
+		margin-top:150px;
+	}
+	.website_description{
+		margin-top:35px;
+	}
+	#skills h1{
+		font-size:130px !important;
+	}
+	.logos_contain img{
+		padding:20px;
+		margin-top:30px;
+
+	}
+	.about h1{
+		font-size:100px;
+	}
+	.about_message{
+		font-size:22px;
+	}
+
+
+
+}
+@media only screen and (min-width:1440px){
+	#intro h1{
+		font-size:250px;
+	}
+	.fswd{
+		margin-top:690px;
+	}
+	.fp_content{
+		margin-top:150px;
+	}
+	.website_description{
+		margin-top:50px;
+	}
+	.fp_text h2{
+		font-weight: bold;
+	}
+	#skills h1{
+		font-size:160px !important;
+	}
+	.logos_contain img{
+		padding:30px;
+		margin-top:30px;
 	}
 	.about h1{
 		font-size:120px;
 		line-height:200px;
 	}
-	.skills_h1{
-		font-size:120px !important;
+	.about ul>li{
+		font-size:35px;
+		line-height:100px;
 	}
-	.logos_contain img{
+	.about_text img{
 		margin-top:50px;
-		padding:20px;
+		height:250px;
+		object-fit: cover;
 	}
-	.website_description{
-		margin-top:50px;
+	.abt h4{
+		margin-top:20px;
+		margin-bottom:20px;
+		font-size:40px;
 	}
-	
 	.about_message{
-	font-size:25px !important;
-}
-.image_contain{
-	margin:0 !important;
-	margin-top:60px !important;
-}
-.abt h4{
-	margin-top:30px;
-	margin-bottom:30px;
-}
+		font-size:25px;
+	}
+	.cv a {
+		font-size:20px;
+		color:black;
+	}
 
 }
