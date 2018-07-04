@@ -722,7 +722,7 @@
 	font-size:25px;
 }
 .about_message{
-	font-size:1px !important;
+	font-size:16px !important;
 }
 
 
@@ -808,8 +808,8 @@
 		margin-top:30px;
 	}
 	.about h1{
-		font-size:120px;
-		line-height:150px;
+		font-size:120px !important;
+		line-height:150px !important;
 	}
 	.about ul>li{
 		font-size:35px;
