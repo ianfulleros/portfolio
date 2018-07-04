@@ -708,8 +708,8 @@
 	font-size:25px;
 }
 .about_text img{
-	margin-top:20px;
-	height:150px;
+	margin-top:20px !important;
+	height:150px !important;
 	object-fit: cover;
 }
 .abt h4{
@@ -718,7 +718,7 @@
 	font-size:25px;
 }
 .about_message{
-	font-size:18px;
+	font-size:18px !important;
 }
 
 
