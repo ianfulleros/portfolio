@@ -102,9 +102,7 @@
 .fswd ul>li>a{
 	color:white;
 }
-.about_message{
-		font-size:18px;
-	}
+
 
 
 /*Works*/
@@ -790,6 +788,9 @@
 	#intro h1{
 		font-size:250px !important;
 		line-height:290px !important;
+	}
+	.fswd{
+		margin-top:650px !important;
 	}
 	.fp_content{
 		margin-top:150px;
