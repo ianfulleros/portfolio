@@ -673,7 +673,7 @@
 	#intro h1{
 	color:white;
 	font-size: 130px; 
-	line-height:140px !important;
+	line-height:160px !important;
     
 }
 .fswd{
@@ -695,9 +695,8 @@
 	margin:0;
 	font-size:18px;
 }
-.about h1{
-	font-size:90px;
-	line-height:130px;
+.contact_h1{
+	font-size:70px !important;
 }
 #link_web,
 #link_web2,
@@ -709,8 +708,8 @@
 	font-size:25px;
 }
 .about_text img{
-	margin-top:30px;
-	height:200px;
+	margin-top:20px;
+	height:150px;
 	object-fit: cover;
 }
 .abt h4{
@@ -719,8 +718,9 @@
 	font-size:25px;
 }
 .about_message{
-	font-size:22px;
+	font-size:18px;
 }
+
 
 }
 
