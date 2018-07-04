@@ -750,7 +750,7 @@
 		margin-top:480px;
 	}
 }
-@media only screen and (min-width:1367px) and (max-width:1399px){
+@media only screen and (min-width:1367px) and (max-width:1439px){
 	#intro h1{
 		/*margin-top:100px;*/
 		font-size:200px;
@@ -791,7 +791,6 @@
 		font-size:250px !important;
 		line-height:290px !important;
 	}
-	
 	.fp_content{
 		margin-top:150px;
 	}
