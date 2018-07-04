@@ -259,7 +259,7 @@
 	text-align:center;
 }
 .about h1{
-	font-size:90px;
+	font-size:70px;
 	line-height:150px;
 }
 .about ul{
@@ -637,6 +637,9 @@
 	}
 	.about h1{
 		line-height:100px !important;
+		margin-top:150px;
+		font-size:60px !important;
+		line-height:0;
 	}
 	.about ul>li{
 		font-size:22px;
@@ -695,8 +698,9 @@
 	margin:0;
 	font-size:18px;
 }
-.contact_h1{
-	font-size:70px !important;
+#about h1{
+	font-size:70px;
+	line-height:100px;
 }
 #link_web,
 #link_web2,
@@ -718,7 +722,7 @@
 	font-size:25px;
 }
 .about_message{
-	font-size:18px !important;
+	font-size:15px !important;
 }
 
 
